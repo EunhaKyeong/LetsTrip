@@ -1,0 +1,25 @@
+#introduce_page {
+    background-color : #F4F4F4;
+    padding : 80px;
+    display : grid;
+    grid-template-columns:1fr 1fr;
+}
+.sub_page1 {
+    padding : 30px 90px 90px 90px;
+    text-align : left;
+}
+.subject {
+    font-family : "Noto Sans KR";
+    font-size : 40px;
+    font-weight : bold;
+    font-style : oblique;
+}
+.explanation {
+    font-family : "Noto Sans KR";
+    padding-top : 10px;
+    font-size : 20px;
+}
+.sub_page2 {
+    padding : 50px;
+    text-align : center;
+}

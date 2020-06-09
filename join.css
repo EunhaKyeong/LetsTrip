@@ -1,0 +1,111 @@
+body {
+    background-color: #F4F4F4;
+}
+#header {
+    text-align : center;
+    font-family : "Anton";
+    font-size : 3vmax;
+    text-align : center;
+    text-shadow: -4px 0 #F2F1F6, 0 4px #F2F1F6, 4px 0 #F2F1F6, 0 -4px #F2F1F6;
+    color : #34558b;
+}
+#header a {
+    text-decoration: none;
+    color : inherit;
+}
+#join_form {
+    margin : 0px;
+}
+#container {
+    margin : 0 auto;
+    max-width : 768px;
+    min-width : 460px;
+}
+#content {
+    width : 460px;
+    margin : 0 auto;
+
+}
+.join_title {
+    margin : 20px 0px 10px 0px;
+    font-family : "Noto Sans KR";
+    font-size : 20px;
+}
+.join_explanation {
+    margin : 5px 0px 5px 0px;
+    font-size : 13px;
+}
+.id {
+    height : 40px;
+    display : grid;
+    grid-template-columns:9fr 1fr;
+}
+.input_id {
+    height : auto;
+    padding : 2px 10px;
+    font-family : "Titillium Web";
+    font-weight : bold;
+}
+.id_overlap {
+    margin-left : 10px;
+    background-color: #34558b;
+    height : auto;
+    font-family : "Noto Sans KR";
+    font-size : auto;
+    color : white;
+    border : #34558b;
+}
+.text_check {
+    font-size : 13px;
+    color : red;
+}
+.input_password {
+    box-sizing : border-box;
+    padding : 2px 10px;
+    width : 100%;
+    height : 40px;
+}
+.input_name {
+    box-sizing : border-box;
+    padding : 2px 10px;
+    width : 100%;
+    height : 40px;
+    font-family : "Noto Sans KR";
+    font-weight : bold;
+}
+.input_birth {
+    display : grid;
+    grid-template-columns : 1fr 1fr 1fr;
+    width : 100%;
+    height : 40px;
+}
+.birth_year {
+    margin-right : 10px;
+}
+.birth_day {
+    margin-left : 10px;
+}
+.input_phone_number {
+    box-sizing : border-box;
+    padding : 2px 10px;
+    width : 100%;
+    height : 40px;
+    font-family : "Noto Sans KR";
+    font-weight : bold;
+}
+.join_button_content {
+    margin-top : 20px;
+    height : 60px;
+}
+.join_button {
+    width : 100%;
+    height : 100%;
+    border : #34558b;
+    background-color: #34558b;
+}
+.button_text {
+    font-family : "Noto Sans KR";
+    font-weight : bold;
+    font-size : 25px;
+    color : white;
+}
