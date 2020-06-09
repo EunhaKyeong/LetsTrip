@@ -54,6 +54,7 @@ body {
     font-size : auto;
     color : white;
     border : #34558b;
+    cursor:pointer;
 }
 .text_check {
     font-size : 13px;
@@ -102,6 +103,7 @@ body {
     height : 100%;
     border : #34558b;
     background-color: #34558b;
+    cursor:pointer;
 }
 .button_text {
     font-family : "Noto Sans KR";

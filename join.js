@@ -1,13 +1,3 @@
-/*function id_check() {
-    //var re = /^[a-zA-Z0-9]{8,12}$/;
-    //var id = document.getElementsByClassName[0]("input_id");
-    document.getElementsByClassName("id_check")[0].innerHTML = "아이디는 8~12자의 영어(대 or 소문자), 숫자 조합이어야 합니다.";
-    if(!re.test(id)) {
-        document.getElementsByClassName("id_check")[0].innerHTML = "아이디는 8~12자의 영어(대 or 소문자), 숫자 조합이어야 합니다.";
-    }
-    
-}
-*/
 function check(val, re) {
     if(re.test(val)) {
         return true;
@@ -93,12 +83,38 @@ function checkMonth(month) {
 
 function checkDay(day) {
     var month = document.getElementsByClassName("birth_month")[0].value;
+    var year = document.getElementsByClassName("birth_year")[0].value;
+    year = parseInt(year);
     day = parseInt(day);
     month = parseInt(month);
-    var day31month = [1, 3, 5, 7, 8, 10, 12];
-    var day30month = [4, 6, 9, 11];
+    end_day = new Date(year, month, 0).getDate()
 
-    if (month in day31month) {
-        document.getElementsByClassName("text_check")[4].innerHTML = "31";
+    if (day > end_day) {
+        document.getElementsByClassName("text_check")[4].innerHTML = "생년월일을 다시 한 번 확인해주세요.";
     }
+    else {
+        document.getElementsByClassName("text_check")[4].innerHTML = "";
+    }
+}
+
+function checkPhone(phone) {
+    var isPhone = /^\d{3}\d{3,4}\d{4}$/;
+
+    if (!isPhone.test(phone)) {
+        document.getElementsByClassName("text_check")[5].innerHTML = "핸드폰 번호를 다시 한 번 확인해주세요";
+    }
+    else {
+        document.getElementsByClassName("text_check")[5].innerHTML = "";
+    }
+
+    if (phone.includes("-")==true) {
+        document.getElementsByClassName("text_check")[5].innerHTML = "-를 제외해주세요.";
+    }
+    else {
+        document.getElementsByClassName("text_check")[5].innerHTML = "";
+    }
+}
+
+function joinConfirm() {
+    alert("회원가입이 완료되었습니다.")
 }
