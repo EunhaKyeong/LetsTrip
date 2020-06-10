@@ -6,4 +6,8 @@
 ## 사용 언어  
 - HTML  
 - CSS  
-- JavaScript
+- JavaScript  
+
+## github 에러 있을 때  
+- [git] ! [rejected] master -> master (non-fast-forward) 해결방법  
+git pull origin master --allow-unrelated-histories
