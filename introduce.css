@@ -1,11 +1,15 @@
 #introduce_page {
+<<<<<<< HEAD
     width : auto;
+=======
+>>>>>>> 3abe917797882fa1a01b7c47094296ed5d1141e3
     background-color : #F4F4F4;
     padding : 80px;
     display : grid;
     grid-template-columns:1fr 1fr;
 }
 .sub_page1 {
+<<<<<<< HEAD
     width : auto;
     height : auto;
     margin : auto;
@@ -14,12 +18,21 @@
 .subject {
     font-family : "Noto Sans KR";
     font-size : 35px;
+=======
+    padding : 30px 90px 90px 90px;
+    text-align : left;
+}
+.subject {
+    font-family : "Noto Sans KR";
+    font-size : 40px;
+>>>>>>> 3abe917797882fa1a01b7c47094296ed5d1141e3
     font-weight : bold;
     font-style : oblique;
 }
 .explanation {
     font-family : "Noto Sans KR";
     padding-top : 10px;
+<<<<<<< HEAD
     font-size : 17px;
 }
 .sub_page2 {
@@ -27,5 +40,11 @@
     height : auto;
     margin : auto;
     padding : 40px;
+=======
+    font-size : 20px;
+}
+.sub_page2 {
+    padding : 50px;
+>>>>>>> 3abe917797882fa1a01b7c47094296ed5d1141e3
     text-align : center;
 }
