@@ -1,0 +1,39 @@
+#plan1st {
+    background-color: #F4F4F4;
+    width : auto;
+    padding : 10px;
+}
+.plan1st_title {
+    width : 100%;
+    font-family: "Noto Sans KR";
+    font-size : 35px;
+    text-align : center;
+}
+.isOverseas {
+    width : auto;
+    margin : 40px 50px;
+    text-align : center;
+    display : grid;
+    grid-template-columns:1fr 1fr;
+}
+.isOverseas_img {
+    opacity : 0.7;
+    width : 400px;
+    height : 300px;
+}
+.isOverseas_select {
+    position : relative;
+    padding: 20px 80px;
+    text-align : center;
+}
+.plan1st_explanation {
+    font-family : Noto Sans KR;
+    font-size : 50px;
+    font-weight : bold;
+    color : white;
+    text-shadow: 0px 0px 5px rgba(0,0,0,0.75);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

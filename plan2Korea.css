@@ -1,0 +1,15 @@
+#plan2nd {
+    background-color: #F4F4F4;
+    width : auto;
+    padding : 10px;
+}
+.plan2nd_title {
+    width : 100%;
+    font-family: "Noto Sans KR";
+    font-size : 35px;
+    text-align : center;
+}
+.Korea_map_container {
+    width : auto;
+    text-align : center;
+}

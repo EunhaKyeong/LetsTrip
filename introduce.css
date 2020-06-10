@@ -1,0 +1,31 @@
+#introduce_page {
+    width : auto;
+    background-color : #F4F4F4;
+    padding : 80px;
+    display : grid;
+    grid-template-columns:1fr 1fr;
+}
+.sub_page1 {
+    width : auto;
+    height : auto;
+    margin : auto;
+    padding : 40px;
+}
+.subject {
+    font-family : "Noto Sans KR";
+    font-size : 35px;
+    font-weight : bold;
+    font-style : oblique;
+}
+.explanation {
+    font-family : "Noto Sans KR";
+    padding-top : 10px;
+    font-size : 17px;
+}
+.sub_page2 {
+    width : auto;
+    height : auto;
+    margin : auto;
+    padding : 40px;
+    text-align : center;
+}
