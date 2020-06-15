@@ -12,7 +12,7 @@
         <div id="header">
             <a href="main.html"><h1>Let's Trip!</h1></a>
         </div>
-        <form id="join_form">
+        <form id="join_form" action="join.php" method="GET">
             <div id="container">
                 <div id="content">
                     <div class="join_content">
@@ -27,12 +27,12 @@
                     <div class="join_content">
                         <h3 class="join_title">비밀번호</h3>
                         <p class="join_explanation">(8자~14자의 영어+숫자+특수기호 모두 포함.)</p>
-                        <input class="input_password" type="password" onkeyup="check_pw(this.value)" name="password1" title="비밀번호 입력" maxlength="16">
+                        <input class="input_password" type="password" onkeyup="check_pw(this.value)" name="password" title="비밀번호 입력" maxlength="16">
                         <span class="text_check"></span> 
                     </div>
                     <div class="join_content">
                         <h3 class="join_title">비밀번호 재확인</h3>
-                        <input class="input_password" type="password" onkeyup="isOverlap(this.value)" name="password1" title="비밀번호 재확인" maxlength="16">
+                        <input class="input_password" type="password" onkeyup="isOverlap(this.value)" title="비밀번호 재확인" maxlength="16">
                         <span class="text_check"></span>
                     </div>
                     <div class="join_content">
@@ -44,7 +44,7 @@
                         <h3 class="join_title">생년월일</h3>
                         <div class="input_birth">
                             <input class="birth_year" type="text" onkeyup="checkBirth(this.value)" name="birth_year" title="년" placeholder="년(4자)">
-                            <select class="birth_month" onchange="checkMonth(this.value)">
+                            <select class="birth_month" onchange="checkMonth(this.value)" name="birth_month">
                                 <option value="월" selected="selected">월</option>
                                 <option value="1">1</option>
                                 <option value="2">2</option>
@@ -74,7 +74,7 @@
                         <span class="text_check"></span>
                     </div>
                     <div class="join_button_content">
-                        <button class="join_button" type="button" onclick="joinConfirm()">
+                        <button class="join_button" type="submit" onclick="joinConfirm()">
                             <span class="button_text">가입하기</span>
                         </button>
                     </div>
